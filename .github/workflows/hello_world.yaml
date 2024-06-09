@@ -17,6 +17,12 @@ jobs:
       - name: hello world
         run: echo "Hello world"
         shell: bash
+  list:
+    runs-on: ubuntu-latest
+    steps:
+      - name: list files
+        run: ls
+        shell: bash
   goodbye:
     runs-on: ubuntu-latest
     steps:
